@@ -1,21 +1,48 @@
-# React + Vite
+# 🍔 Swiggy Clone (Frontend Only)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Swiggy-inspired food delivery web app built with React and Tailwind CSS,  
+using Swiggy's live API for real-time restaurant and menu data.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Fetches real restaurant data directly from Swiggy API  
+- Restaurant listing and menu details  
+- Add to cart and manage items  
+- Responsive UI with modern design  
+- Built purely for learning and portfolio purposes
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Technologies Used
+- React.js  
+- Tailwind CSS  
+- React Router  
+- JavaScript (ES6+)  
+- Swiggy public API (live data)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 [GitHub Repo](https://github.com/yourusername/swiggy-clone)
 
+---
 
- heroku :https://cors-anywhere.herokuapp.com/corsdemo
+## ⚠️ Note
+This project uses Swiggy's live API.  
+Since the API is not officially public, it might:
+- Block requests due to CORS restrictions 🛑  
+- Stop working temporarily if Swiggy updates their endpoints 🔄  
+- Load slowly depending on the region 🌐  
 
-https://www.swiggy.com/mapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.7040592&lng=77.10249019999999&restaurantId=55473
+If the app doesn’t load data:
+1. Try using a CORS proxy (for example, https://cors-anywhere.herokuapp.com/).  
+2. Or check the browser console for API request errors.
+
+---
+
+## 🧩 Run Locally
+`bash
+git clone https://github.com/mdriadali/Fontend-Project-Swiggy-With-Live-API.git
+cd swiggy-clone
+npm install
+npm run dev
