@@ -48,6 +48,6 @@ If the app doesn’t load data:
 ## 🧩 Run Locally
 `bash
 git clone https://github.com/mdriadali/Fontend-Project-Swiggy-With-Live-API.git
-cd swiggy-clone
-npm install
-npm run dev
+- cd swiggy-clone
+- npm install
+- npm run dev
