@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Ptag from "./Ptag";
 import MenuInfo from "./MenuInfo";
 
 const MenuCard = ({ menuItems, selected }) => {

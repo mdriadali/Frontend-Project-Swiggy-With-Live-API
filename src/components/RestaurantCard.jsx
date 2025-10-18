@@ -38,10 +38,9 @@ const RestaurantCard = ({ restaurantData }) => {
                 >
                   <path d="M12 2l2.9 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14 2 9.27l7.1-1.01L12 2z" />
                 </svg>
-                <Ptag
-                  className={"font-bold mx-[0]"}
-                  text={` ${restaurantData?.info?.avgRatingString} ${restaurantData?.info?.sla?.slaString} `}
-                />
+                <p
+                  className={"font-bold"}
+                >{` ${restaurantData?.info?.avgRatingString} ${restaurantData?.info?.sla?.slaString} `}</p>
               </div>
               <Ptag
                 className={"truncate"}
