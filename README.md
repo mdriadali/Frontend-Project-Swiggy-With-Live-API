@@ -23,7 +23,7 @@ using Swiggy's live API for real-time restaurant and menu data.
 
 ---
 
-👉 [GitHub Repo](https://github.com/yourusername/swiggy-clone)
+👉 [GitHub Repo](https://github.com/mdriadali/Fontend-Project-Swiggy-With-Live-API.git)
 
 ---
 ---
