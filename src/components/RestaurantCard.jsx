@@ -42,11 +42,8 @@ const RestaurantCard = ({ restaurantData }) => {
                   className={"font-bold"}
                 >{` ${restaurantData?.info?.avgRatingString} ${restaurantData?.info?.sla?.slaString} `}</p>
               </div>
-              <Ptag
-                className={"truncate"}
-                text={restaurantData?.info?.cuisines?.join(", ")}
-              />
-              <Ptag text={restaurantData?.info?.areaName} />
+              <p className="mx-4 truncate"> {restaurantData?.info?.cuisines?.join(", ")}</p>
+              <p className="mx-4 truncate"> {restaurantData?.info?.areaName}</p>
             </div>
           </Link>
       </div>
