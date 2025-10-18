@@ -26,6 +26,11 @@ using Swiggy's live API for real-time restaurant and menu data.
 👉 [GitHub Repo](https://github.com/yourusername/swiggy-clone)
 
 ---
+---
+
+👉 [Live Demo](swiggy-frontend-clone-live-api.netlify.app)
+
+---
 
 ## ⚠️ Note
 This project uses Swiggy's live API.  
