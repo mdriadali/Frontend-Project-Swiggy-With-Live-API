@@ -24,8 +24,8 @@ const CheckoutCard = () => {
     <>
     <div className=" w-full h-screen bg-[#E9ECEE]">
 
-      <div className="w-90 h-[70%] bg-white shadow absolute top-[20%] left-1/2 transform -translate-x-1/2  overflow-y-scroll">
-        <div className="w-full  ">
+      <div className="w-90 h-[70%] bg-white shadow absolute top-[20%] left-1/2 transform -translate-x-1/2 ">
+        <div className="w-full  h-[calc(100%-60px)] overflow-y-scroll  ">
           {data.map((item) => (
             <div
             key={item.id}
@@ -68,7 +68,7 @@ const CheckoutCard = () => {
           ))}
         </div>
 
-        <div className="flex justify-between bottom-0 left-0 right-0 fixed bg-white py-4 px-4 font-bold border-t-2 border-gray-100 z-50">
+        <div className="flex  justify-between bottom-0 left-0 right-0  bg-white py-4 px-4 font-bold border-t-2 border-gray-100 z-50">
           <div>TO PAY</div>
           <div>
             ₹

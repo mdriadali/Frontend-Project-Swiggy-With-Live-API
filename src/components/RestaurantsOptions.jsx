@@ -47,7 +47,7 @@ const RestaurantsOptions = () => {
   }
   return (
     <>
-      <div className=" w-[80%] container mx-auto flex flex-wrap ">
+      <div className=" w-[80%]  container mx-auto flex flex-wrap ">
         {restData.map((restaurantData) => (
           <RestaurantCard
             key={restaurantData?.info?.id}

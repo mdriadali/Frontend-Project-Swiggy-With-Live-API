@@ -5,7 +5,7 @@ const Simmer = () => {
   const items = []
   for (let i = 0; i < 20; i++) {
     items.push(
-      <div key={i} className="w-[20%] mx-5 mb-4">
+      <div key={i} className="w-[20%]  mx-5 mb-4">
         <div className=" w-70 h-45 rounded-3xl  bg-gray-300" />
         <div className="mx-4 w-45 h-3 my-1 bg-gray-300" />
         <div className="mx-4 w-32 h-2.5 my-1 bg-gray-300" />
