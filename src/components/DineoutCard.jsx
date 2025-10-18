@@ -1,5 +1,4 @@
 import React from 'react'
-import Ptag from './ptag'
 
 function DineoutCard({ dineoutData }) {
   return (
@@ -12,7 +11,6 @@ function DineoutCard({ dineoutData }) {
         <img  className='w-80 h-50 rounded-2xl' src={`https://media-assets.swiggy.com/swiggy/image/upload/${dineoutData?.info?.mediaFiles[0]?.url}`} alt="" />
     </div>
      <div className=' flex justify-between container  mx-auto'>
-
       <Ptag text={dineoutData?.info?.cuisines?.map(cuisine => cuisine).join(" • ")}/>
       <Ptag text={dineoutData?.info?.costForTwo}/>
      </div>
