@@ -1,5 +1,4 @@
 import React from "react";
-import Ptag from "./Ptag";
 import { Link } from "react-router";
 
 const RestaurantCard = ({ restaurantData }) => {
