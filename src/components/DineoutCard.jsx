@@ -15,8 +15,9 @@ function DineoutCard({ dineoutData }) {
       <Ptag text={dineoutData?.info?.costForTwo}/>
      </div>
      <div  className=' flex justify-between container  mx-auto'>
-      <Ptag text={dineoutData?.info?.locationInfo?.formattedAddress}/>
-      <Ptag text={dineoutData?.info?.locationInfo?.distanceString}/>
+      <p className='mx-4 '>{dineoutData?.info?.locationInfo?.formattedAddress}</p>
+      <p className='mx-4 '>{dineoutData?.info?.locationInfo?.distanceString}</p>
+
      </div>
      
       {dineoutData?.info?.offerInfoV2?.otherOffers?.offers?.[0]?.header && 
